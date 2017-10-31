@@ -1,5 +1,5 @@
 {
-  "name": "-promise",
+  "name": "clear-promise",
   "author": "Nile Suan <nilesuan@gmail.com> (http://www.nilesuan.com)",
   "description": "Clear the terminal screen if possible now as a promise",
   "version": "1.0.0",

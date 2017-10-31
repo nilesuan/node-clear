@@ -1,7 +1,7 @@
 clear
 =====
 
-Clear the terminal screen if possible
+Clear the terminal screen if possible now as a promise
 
 Usage
 -----
@@ -9,6 +9,17 @@ Usage
 ``` js
 var clear = require('clear');
 clear();
+
+
+var clear = require('clear');
+clear()
+.then(() => {
+  return 'All Clear!';
+})
+.catch((err) => {
+  console.log('something went wrong =(');
+  console.log(err);
+});
 ```
 
 Example
@@ -26,7 +37,7 @@ line of output.
 Installation
 ------------
 
-    npm install clear
+    npm install clear-promise
 
 ANSI Codes
 ----------
